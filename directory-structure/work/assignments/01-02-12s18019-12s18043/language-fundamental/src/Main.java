@@ -6,11 +6,13 @@
 
 /**
  *
- * @author 02-12s18019  Maria Nababan
- * @author 02-12s18043  Roy Gunawan Napitupulu
+ * @author 02-12s18019  Maria Puspita Sari Nababan
+ * @author 02-12s18043 Roy Gunawan Napitupulu
  */
+import java.util.ArrayList;
+
 public class Main {
-    
+     
     /* program emtry point */
     public static void main(String[] _args) {
         System.out.println("Hello, world!");
@@ -63,6 +65,24 @@ for (int i = 0; i < numbers.length; ++i) {
         System.out.print(numbers[i][j] + " ");  
     }
 System.out.println();
+}
+
+System.out.println();
+System.out.println("Challenge");
+
+ArrayList<Integer> Sublime = new ArrayList<Integer>();
+int nilai = 10;
+
+for (int r = 0; r < nilai; ++r){
+    int d = 0;
+    int s = 0;
+    for (int m = 0; m < nilai; ++m){
+        
+        d = r + s;
+        System.out.print(d + " ");
+        s++;
+    }
+    System.out.println();
 }
     }
 }
